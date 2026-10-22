@@ -1,3 +1,45 @@
+/* Basic styles */
+
 body {
 	/* style for body */
+}
+
+h1 {
+    /* style for h1 */
+}
+
+nav a {
+    /* style for navigations */
+}
+
+footer {
+    /* style for footer */
+}
+
+.button {
+    /* style for buttons*/
+}
+
+.projects{
+
+}
+
+/* Specific styles */
+
+nav a.current {
+    /* style for current page navigation */
+}
+
+/* Interactive states */
+
+nav a:hover,
+.button:hover,
+.projects:hover {
+    /* Hover styles */
+}
+
+nav a:focus-visible,
+.button:focus-visible,
+.projects:focus-visible {
+    /* Focus visible styles */
 }
