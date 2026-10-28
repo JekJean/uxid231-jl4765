@@ -1,13 +1,13 @@
 :root {
-    --background: #fffee9;
+    --background: #fafefb;
     --markerBlue: #002baa;
-    --lightBlue: #ffffff;
+    --matteBlack: #0f0e08;
 }
 
 /* Basic styles */
 body {
 	background-color: var(--background);
-    color: var(--markerBlue)
+    color: var(--matteBlack)
 }
 
 h1 {
@@ -39,11 +39,11 @@ nav a.current {
 nav a:hover,
 .button:hover,
 .projects:hover {
-    /* Hover styles */
+    color: var(--markerBlue)
 }
 
 nav a:focus-visible,
 .button:focus-visible,
 .projects:focus-visible {
-    /* Focus visible styles */
+    color: var(--markerBlue)
 }
