@@ -1,12 +1,13 @@
 :root {
     --background: #fffee9;
-    --lightBlue: #ffffff;
+    --markerBlue: #002baa;
     --lightBlue: #ffffff;
 }
 
 /* Basic styles */
 body {
 	background-color: var(--background);
+    text: var(--markerBlue)
 }
 
 h1 {
