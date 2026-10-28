@@ -1,7 +1,12 @@
-/* Basic styles */
+:root {
+    --background: #ffffff;
+    --lightBlue: #ffffff;
+    --lightBlue: #ffffff;
+}
 
+/* Basic styles */
 body {
-	/* style for body */
+	background-color: var(--background);
 }
 
 h1 {
@@ -25,13 +30,11 @@ footer {
 }
 
 /* Specific styles */
-
 nav a.current {
     /* style for current page navigation */
 }
 
 /* Interactive states */
-
 nav a:hover,
 .button:hover,
 .projects:hover {
