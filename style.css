@@ -7,7 +7,7 @@
 /* Basic styles */
 body {
 	background-color: var(--background);
-    text: var(--markerBlue)
+    color: var(--markerBlue)
 }
 
 h1 {
