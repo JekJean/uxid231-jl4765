@@ -11,18 +11,14 @@
     --font-height-normal: 1.5;
 }
 
-/* Basic styles */
+    /* Basic styles */
 body {
-    /* download google sans flex */
+        /* download google sans flex */
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 	background-color: var(--background);
-    /* background-image: url(assets/StandinBG.webp); */
+        /* background-image: url(assets/StandinBG.webp); */
     color: var(--matte-black);
     font-size: var(--font-size-normal);
-}
-
-h1 {
-    /* style for h1 */
 }
 
 nav a {
@@ -37,13 +33,28 @@ footer {
     /* style for buttons*/
 }
 
-/* Projects Labels */
+/*//Projects Styles//*/
+    /* Projects Labels */
 figcaption {
     text-align: center;
-    padding: 0.75rem;
+    padding: 0.1rem;
+}
+    /* Projects Page Horizontal Scroll */
+.projects {
+    display: flex;
+    overflow-x: auto;
+    gap: 0.1.rem;
+    align-items: flex-end;
 }
 
-/* Fonts */
+/*//About Styles//*/
+    /* About Segments */
+.about-section{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+    /* About Fonts */
 .about-text {
     font-size: var(--font-size-large);
     line-height: var(--font-height-small);
@@ -51,13 +62,6 @@ figcaption {
     text-align: center;
 }
 
-/* Projects Page Horizontal Scroll */
-.projects{
-    display: flex;
-    overflow-x: auto;
-    gap: 2rem;
-    align-items: flex-end;
-}
 
 /* Specific styles */
 nav a.current {
@@ -68,11 +72,11 @@ nav a.current {
 nav a:hover,
 .button:hover,
 .projects:hover {
-    color: var(--marker-blue)
+    color: var(--marker-blue);
 }
 
 nav a:focus-visible,
 .button:focus-visible,
 .projects:focus-visible {
-    color: var(--marker-blue)
+    color: var(--marker-blue);
 }
