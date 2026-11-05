@@ -1,7 +1,9 @@
 :root {
+    /* Color System */
     --background: #fafefb;
     --marker-blue: #002baa;
     --matte-black: #0f0e08;
+    /* Font System Stack */
     --font-size-small: 0.875rem;
     --font-size-base: 1.125rem;
     --font-size-large: 1.5rem;
@@ -10,6 +12,7 @@
 /* Basic styles */
 body {
 	background-color: var(--background);
+    /* background-image: url(assets/StandinBG.webp); */
     color: var(--matte-black);
     font-size: var(--font-size-base);
 }
