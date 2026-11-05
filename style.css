@@ -1,13 +1,17 @@
 :root {
     --background: #fafefb;
-    --markerBlue: #002baa;
-    --matteBlack: #0f0e08;
+    --marker-blue: #002baa;
+    --matte-black: #0f0e08;
+    --font-size-small: 0.875rem;
+    --font-size-base: 1.125rem;
+    --font-size-large: 1.5rem;
 }
 
 /* Basic styles */
 body {
 	background-color: var(--background);
-    color: var(--matteBlack)
+    color: var(--matte-black)
+    font-size: var(--font-size-base)
 }
 
 h1 {
@@ -39,11 +43,11 @@ nav a.current {
 nav a:hover,
 .button:hover,
 .projects:hover {
-    color: var(--markerBlue)
+    color: var(--marker-blue)
 }
 
 nav a:focus-visible,
 .button:focus-visible,
 .projects:focus-visible {
-    color: var(--markerBlue)
+    color: var(--marker-blue)
 }
