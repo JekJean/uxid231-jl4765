@@ -20,12 +20,6 @@
     --space-Large: 1.5rem;
 }
 
-/* Main Styles */
-main {
-    max-width: 50ch;
-    margin-inline: auto;
-}
-
 /* //Basic styles// */
 body {
         /* download google sans flex */
@@ -34,6 +28,12 @@ body {
         /* background-image: url(assets/StandinBG.webp); */
     color: var(--matte-black);
     font-size: var(--font-size-normal);
+}
+
+/* //Main Styles// */
+main {
+    max-width: 50ch;
+    margin-inline: auto;
 }
 
 nav a {
