@@ -58,6 +58,7 @@ nav a.about-link {
 nav a.logo {
     margin-left: 0;
     margin-right: auto;
+    border: none;
 }
 
 footer {
