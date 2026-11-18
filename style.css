@@ -29,20 +29,27 @@ body {
 	background-color: var(--background);
         /* background-image: url(assets/StandinBG.webp); */
     color: var(--matte-black);
+    margin: 0;
 }
 
 /* //Main Styles// */
 nav{
-    text-align: right;
-    padding: calc(var(--space-small)/2);
+    display: flex;
+    align-items: center;
+    padding: .5rem 0 .5rem;
     border: 1px solid var(--matte-black);
 }
 
 nav a {
     font-size: var(--font-size-normal);
     margin-left: var(--space-small);
-    padding: calc(var(--space-small)/2);
+    padding: .5rem .75rem .5rem;
     border: 1px solid var(--matte-black);
+}
+
+nav a.logo {
+    margin-left: 0;
+    margin-right: auto;
 }
 
 footer {
@@ -87,12 +94,6 @@ figcaption {
     line-height: var(--font-height-small);
     max-width: 26ch;
     text-align: center;
-}
-
-
-/* Specific styles */
-nav a.current {
-    /* style for current page navigation */
 }
 
 /* Interactive states */
